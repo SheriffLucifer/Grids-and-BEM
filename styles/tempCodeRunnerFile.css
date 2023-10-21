@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: local("TT Lakes-Light"),
+        url("../fonts/TTLakes-Light.woff2") format("woff2"),
+         url("../fonts/TTLakes-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+  }
