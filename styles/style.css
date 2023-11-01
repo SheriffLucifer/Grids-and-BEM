@@ -116,14 +116,21 @@ body {
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #7e7e82;
-    padding: 0 18px;
+    padding: 8px 16px;
 
     &:focus {
       border: 2px solid #b8ffec;
       border-radius: 6px;
       background-color: #fff;
-      padding: 8px 16px;
+      padding: 8px 14px;
     }
+  }
+
+  .nav__link-text__active {
+    border: 2px solid #b8ffec;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 8px 14px;
   }
 
   .promo__description {
@@ -263,11 +270,15 @@ body {
   }
 
   .nav__link-text {
-    padding: 0 24px;
+    padding: 8px 24px;
 
     &:focus {
       padding: 8px 22px;
     }
+  }
+
+  .nav__link-text__active {
+    padding: 8px 22px;
   }
 
   .content__info a {
